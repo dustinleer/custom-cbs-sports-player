@@ -1,0 +1,64 @@
+/* --------------------------------------------------------
+* EXPANDS VIDEO PLAYER TO FULL WIDTH
+-------------------------------------------------------- */
+	.video-microsite-page .main-video-content {
+		width: 100%;
+		padding: 0;
+	}
+
+/* --------------------------------------------------------
+* LEFT RAIL CUSTOMIZATION
+-------------------------------------------------------- */
+	.video-microsite-page .left-rail-container {
+		background-color: rgba(255, 255, 255, 0.75);
+		border: none;
+		position: absolute;
+		right: -182px;
+		height: 75px;
+		top: 0;
+		border-radius: 5px 0 0 5px;
+		transition: 0.5s all;
+		padding: 0;
+		overflow-x: scroll;
+	}
+
+	.video-microsite-page .left-rail-container:hover {
+		right: 0;
+		height: calc(90vh - 50px);
+		top: 0;
+	}
+
+	/* --------------------------------------------------------
+	* VIDEO CAOUSEL CUSTOMIZATIONS
+	-------------------------------------------------------- */
+		.video-microsite-page .vertical-carousel .video-item {
+			margin-top: 0;
+			padding: 10px;
+		}
+
+		.video-microsite-page .vertical-carousel .video-item:hover {
+			background: rgba(255, 255, 255, 0.5);
+		}
+
+		.video-microsite-page .vertical-carousel .title {
+			color: #2d2d2d;
+		}
+
+		.video-microsite-page .vertical-carousel .duration {
+			color: #107fdf;
+		}
+
+		.video-microsite-page .vertical-carousel .thumb {
+			padding: 0 10px 0 0;
+		}
+
+/* --------------------------------------------------------
+* HIDES SOCIAL ICONS AND OTHER ITEMS AND FOOTER LINKS
+-------------------------------------------------------- */
+	.social-container,
+	.video-microsite-page .left-rail:after,
+	.videoItem:last-child,
+	.sep-line,
+	.link-items {
+		display: none;
+	}
