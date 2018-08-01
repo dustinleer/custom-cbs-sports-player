@@ -14,8 +14,8 @@
 		border: none;
 		position: absolute;
 		right: -182px;
+		top: -50px;
 		height: 75px;
-		top: 0;
 		border-radius: 5px 0 0 5px;
 		transition: 0.5s all;
 		padding: 0;
