@@ -14,19 +14,21 @@
 		border: none;
 		position: absolute;
 		right: -182px;
-		top: -50px;
+		top: 50%;
 		height: 75px;
 		border-radius: 5px 0 0 5px;
 		transition: 0.5s all;
 		padding: 0;
-		overflow-x: scroll;
+		overflow-x: hidden;
 		box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.35);
 		-webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.35);
 		-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.35);
 	}
 
 	.video-microsite-page .left-rail-container:hover {
+		overflow-x: scroll;
 		right: 0;
+		top: -50px;
 		height: 100vh;
 	}
 
